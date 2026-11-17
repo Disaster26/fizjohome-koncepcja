@@ -17,8 +17,8 @@
 <style>
 @font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
 @font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
-@font-face{font-family:Manrope;font-weight:400 800;font-display:optional;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
-@font-face{font-family:Manrope;font-weight:400 800;font-display:optional;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Manrope;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Manrope;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
 @font-face{font-family:"Jost fb";src:local("Arial");size-adjust:100%;ascent-override:100%;descent-override:30%}
 @font-face{font-family:"Manrope fb";src:local("Arial");size-adjust:103%;ascent-override:96%;descent-override:27%}
 :root{--b:#00A0E3;--bd:#0072B5;--bdd:#005A8F;--g:#AAAAAA;--ink:#17212B;--mut:#4A5560;--line:#DCE2E7;--bg2:#F1F4F6;--pad:clamp(16px,4vw,64px);--max:2040px;--hd:74px}
@@ -83,7 +83,7 @@ p{margin:0 0 1em}
  .hin{flex:0 0 auto;padding:6px 0 46px;position:relative}
  .hin:before{content:"";position:absolute;left:calc(-1*var(--pad) - 12%);right:calc(-1*var(--pad) - 12%);top:-30px;height:60px;border-radius:50%;background:var(--bdd);z-index:-1}
  .hin h1{font-size:clamp(28px,min(8.2vw,5svh),40px);line-height:1.1}
- .hin .lead{font-size:clamp(15.5px,2.4svh,17px);margin:12px 0 26px;line-height:1.5}
+ .hin .lead{font-size:clamp(15.5px,2.4svh,17px);margin:12px 0 26px;line-height:1.5;min-height:6em}
  .hin .btn{width:100%}
  .hin .tl{margin:14px 0 0;font-size:15px;line-height:1.6}
 }
